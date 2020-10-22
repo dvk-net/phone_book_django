@@ -19,4 +19,5 @@
 1. Add Html form, submit button
 1. Redefine `get_success_url` of `AddPhoneFormView` for adding phones
 1. Redefine `get_context_data` of `HomePageView` for filtering
-1. add card for rearch result in `home.html` template. Add `search_message` and all results 
+1. add card for rearch result in `home.html` template. Add `search_message` and all results
+1. add `all_phones_to_string` to `Persone` Model. Add result table to `home.html`

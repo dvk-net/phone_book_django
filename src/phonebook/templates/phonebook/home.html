@@ -32,7 +32,26 @@
                 <h5 class="card-title">Phones</h5>
                 <h6 class="card-subtitle mb-2 text-muted">{{ search_message }}</h6>
                 <p class="card-text">
-                    Results will be here
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Phones</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for person in persons %}
+                            <tr>
+                                <th scope="row">{{ person.pk }}</th>
+                                <td>{{ person.name }}</td>
+                                <td>{{ person.all_phones_to_string}}</td>
+                                <td>@mdo</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
                 </p>
             </div>
         </div>

@@ -4,6 +4,9 @@ class Persone(models.Model):
     name = models.CharField("Contact name", max_length=70)
     def __str__(self):
         return self.name
+    
+    def all_phones_to_string(self):
+        return ", ".join([phone.phone for phone in self.phones.all()])
 
 
 class Phone(models.Model):
