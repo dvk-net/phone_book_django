@@ -1,6 +1,16 @@
 # Phonebook Django webapp
+## About
 
-## Steps
+Following features have been implemented at the moment:
+
+- Create(add) contact
+- Search by name
+- Search by phone
+- A contact could have many phones attached to it
+- Delete contacts
+- Contacts are stored in sqlite DB via Django ORM
+
+## Plan to follow
 
 1. Create git rep
 1. Create venv
@@ -22,3 +32,47 @@
 1. add card for rearch result in `home.html` template. Add `search_message` and all results
 1. add `all_phones_to_string` to `Persone` Model. Add result table to `home.html`
 1. add `DeletePhoneView` and functional
+
+1. add search forms to `home.html`
+
+## Install 
+
+1. clone project and cd to project dir
+1. create venv and activate it
+    ```zsh
+    #linux/mac
+    python3 -m venv env
+    source ./env/bin/activate
+    ```
+    ```bash
+    #win cmd
+    python -m venv env
+    .\env\Scripts\activate
+    ```
+1. Install dependensies:
+    ```zsh
+    pip install -r requirements.txt
+    ```
+
+## Run it
+
+1. cd to `src` directory
+1. run
+    ```zsh
+    #linux/mac
+    python3 manage.py runserver
+    ```
+    ```bash
+    #win cmd
+    python manage.py runserver
+    ```
+
+## Video explanation[RUS]
+
+coming soon..
+
+## Previous step
+- [Crossplatform Kivy Phonebook app](https://youtu.be/PxT8c7qP-o0)
+## Next steps
+
+- Create the same app as web-app usind Django + Django REST Framework + VUE
