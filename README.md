@@ -15,3 +15,4 @@
 1. Add `home` navbar item
 1. Add `Add` and `All` navbar items
 1. Add `CreatePersoneForm` and `AddPhoneFormView`. Add path to `AddPhoneFormView`
+1. Add `django-crispy-forms`
