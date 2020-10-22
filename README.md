@@ -11,5 +11,6 @@
 1. Create `home.html` template
 1. Add path to `HomePageVIew`
 1. Add bootstrap (CDN)
-1. Add navbar
+1. Add navbar (add navbar-expand-lg class)
 1. Add `home` navbar item
+1. Add `Add` and `All` navbar item
