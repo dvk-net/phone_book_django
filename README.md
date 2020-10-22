@@ -18,3 +18,5 @@
 1. Add `django-crispy-forms`
 1. Add Html form, submit button
 1. Redefine `get_success_url` of `AddPhoneFormView` for adding phones
+1. Redefine `get_context_data` of `HomePageView` for filtering
+1. add card for rearch result in `home.html` template. Add `search_message` and all results 

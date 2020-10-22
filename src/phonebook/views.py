@@ -1,10 +1,30 @@
 from django.views.generic import TemplateView, CreateView
 from django.urls import reverse_lazy
+
+
 from .forms import CreatePersoneForm 
-from .models import Phone
+from .models import Phone, Persone
 
 class HomePageView(TemplateView):
     template_name="phonebook/home.html"
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        search_by = self.request.GET.get('search_by')
+        query = self.request.GET.get('query')
+        search_message = 'All phones'
+        if search_by in ['phone', 'name'] and search_by:
+            if search_by == 'name':
+                persons = Persone.objects.filter(name=query)
+                search_message = f'Searching for "name" by "{query}"'
+            else:
+                persons = Persone.objects.filter(phones__phone=query)
+                search_message = f'Searching for "phones" by "{query}"'
+        else:
+            persons = Persone.objects.all()
+        context["persons"] = persons
+        context["search_message"] = search_message
+        return context
+    
 
 class AddPhoneFormView(CreateView):
     template_name="phonebook/add_persone.html"
