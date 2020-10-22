@@ -21,3 +21,4 @@
 1. Redefine `get_context_data` of `HomePageView` for filtering
 1. add card for rearch result in `home.html` template. Add `search_message` and all results
 1. add `all_phones_to_string` to `Persone` Model. Add result table to `home.html`
+1. add `DeletePhoneView` and functional

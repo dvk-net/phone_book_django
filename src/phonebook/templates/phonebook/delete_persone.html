@@ -29,29 +29,12 @@
         </nav>
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Phones</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{ search_message }}</h6>
+                <h5 class="card-title">Delete {{ object.name }}?</h5>
                 <p class="card-text">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Phones</th>
-                            <th scope="col">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {% for person in persons %}
-                            <tr>
-                                <th scope="row">{{ person.pk }}</th>
-                                <td>{{ person.name }}</td>
-                                <td>{{ person.all_phones_to_string}}</td>
-                                <td><a class="btn btn-sm btn-danger" href="{% url 'delete' person.pk %}">Delete</a></td>
-                            </tr>
-                        {% endfor %}
-                        </tbody>
-                    </table>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger">Confim</button>
+                </form>
                 </p>
             </div>
         </div>
