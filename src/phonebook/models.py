@@ -7,9 +7,9 @@ class Persone(models.Model):
 
 
 class Phone(models.Model):
-    phones = models.TextField(
-        verbose_name="Phones",
-        help_text="Введите номера телефонов, каждый с новой строки"
+    phone = models.CharField(
+        verbose_name="Phone",
+        max_length=12
     )
     contact = models.ForeignKey(
         Persone,

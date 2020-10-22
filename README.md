@@ -16,3 +16,5 @@
 1. Add `Add` and `All` navbar items
 1. Add `CreatePersoneForm` and `AddPhoneFormView`. Add path to `AddPhoneFormView`
 1. Add `django-crispy-forms`
+1. Add Html form, submit button
+1. Redefine `get_success_url` of `AddPhoneFormView` for adding phones
