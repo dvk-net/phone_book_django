@@ -11,10 +11,12 @@ Following features have been implemented at the moment:
 - Contacts are stored in sqlite DB via Django ORM
 
 ## Plan to follow
-
+====================
+[Install and initialize empty project Video How To[RUS](https://youtu.be/LuqGny28YEw)
 1. Create git rep
 1. Create venv
 1. Start project
+===================
 1. Create app `phonebook`
 1. Create `Models`
 1. Create `HomePageVIew`
