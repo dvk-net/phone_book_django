@@ -12,9 +12,11 @@ Following features have been implemented at the moment:
 
 ## Plan to follow
 ====================
-[Install and initialize empty project Video How To[RUS](https://youtu.be/LuqGny28YEw)
+
+[Install and initialize empty project Video How To(RUS)](https://youtu.be/LuqGny28YEw)
 1. Create git rep
 1. Create venv
+
 1. Start project
 ===================
 1. Create app `phonebook`
