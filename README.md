@@ -20,8 +20,13 @@ Following features have been implemented at the moment:
 
 ===================
 
+[Create app and models](https://youtu.be/c9unEJWRuMA)
 1. Create app `phonebook`
 1. Create `Models`
+
+=====================
+
+
 1. Create `HomePageVIew`
 1. Create `home.html` template
 1. Add path to `HomePageVIew`
