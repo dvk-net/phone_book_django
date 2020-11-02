@@ -20,7 +20,7 @@ Following features have been implemented at the moment:
 
 ===================
 
-[Create app and models](https://youtu.be/c9unEJWRuMA)
+[Create app and models Video How To(RUS)](https://youtu.be/c9unEJWRuMA)
 1. Create app `phonebook`
 1. Create `Models`
 
