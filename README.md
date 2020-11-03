@@ -80,7 +80,7 @@ Following features have been implemented at the moment:
 ## Video explanation[RUS]
 
 coming soon..
-
+[How to... (RUS)](https://www.youtube.com/watch?v=PxT8c7qP-o0&list=PLIMYb25g876h9hdwBa6asZfABu4vbLGNM)
 ## Previous step
 - [Crossplatform Kivy Phonebook app](https://youtu.be/PxT8c7qP-o0)
 ## Next steps
