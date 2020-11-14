@@ -34,6 +34,8 @@ Following features have been implemented at the moment:
 
 =======================
 
+
+[AddView(CreateView), ModelForm, NavBar. Video How To(RUS)](https://youtu.be/ayYeLM1pcPQ)
 1. Add navbar (add navbar-expand-lg class)
 1. Add `home` navbar item
 1. Add `Add` and `All` navbar items
